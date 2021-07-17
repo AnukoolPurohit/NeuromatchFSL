@@ -1,0 +1,10 @@
+matplotlib
+jupyterlab
+scikit-learn
+notebook
+pathlib
+nibabel
+nipy
+nilearn
+numpy
+glmnet

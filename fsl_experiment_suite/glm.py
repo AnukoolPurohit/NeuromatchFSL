@@ -37,5 +37,6 @@ def glm(Y,X,C=None,mask=None):
     sig2 = np.sum(r**2,axis=0)/dof
     varcope = np.outer(C@np.diag(np.linalg.inv(X.T@X))@C.T,sig2)
     # calculate t-stats
+    # mask = mask.astype(int)
     tstat[:,mask] = cope[:,mask] / np.sqrt(varcope[:,mask])
     return cope, tstat

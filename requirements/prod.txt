@@ -256,6 +256,8 @@ tornado==6.1
     #   jupyterlab
     #   notebook
     #   terminado
+tqdm==4.61.2
+    # via -r requirements/prod.in
 traitlets==5.0.5
     # via
     #   ipykernel

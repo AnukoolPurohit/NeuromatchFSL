@@ -8,3 +8,4 @@ nipy
 nilearn
 numpy
 glmnet
+tqdm
